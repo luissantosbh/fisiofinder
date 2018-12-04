@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51963039DFCF4F14601927F8 /* Pods_fisiofinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBB8AE04ACC68627FE4FF47 /* Pods_fisiofinder.framework */; };
+		912CB1111F8BF72900063EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CB1101F8BF72900063EC2 /* AppDelegate.swift */; };
+		912CB1131F8BF72900063EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CB1121F8BF72900063EC2 /* ViewController.swift */; };
+		912CB1161F8BF72900063EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912CB1141F8BF72900063EC2 /* Main.storyboard */; };
+		912CB1191F8BF72900063EC2 /* fisiofinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 912CB1171F8BF72900063EC2 /* fisiofinder.xcdatamodeld */; };
+		912CB11E1F8BF72900063EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912CB11C1F8BF72900063EC2 /* LaunchScreen.storyboard */; };
+		915393E721B6126D00444BB2 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393D721B6126D00444BB2 /* Icon-App-76x76@2x.png */; };
+		915393E821B6126D00444BB2 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393D821B6126D00444BB2 /* Icon-App-29x29@1x.png */; };
+		915393E921B6126D00444BB2 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393D921B6126D00444BB2 /* Icon-App-40x40@1x.png */; };
+		915393EA21B6126D00444BB2 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393DA21B6126D00444BB2 /* Icon-App-20x20@1x.png */; };
+		915393EB21B6126D00444BB2 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393DB21B6126D00444BB2 /* Icon-App-83.5x83.5@2x.png */; };
+		915393EC21B6126D00444BB2 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393DC21B6126D00444BB2 /* Icon-App-20x20@3x.png */; };
+		915393ED21B6126D00444BB2 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393DD21B6126D00444BB2 /* ItunesArtwork@2x.png */; };
+		915393EE21B6126D00444BB2 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 915393DE21B6126D00444BB2 /* Contents.json */; };
+		915393EF21B6126D00444BB2 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393DF21B6126D00444BB2 /* Icon-App-20x20@2x.png */; };
+		915393F021B6126D00444BB2 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E021B6126D00444BB2 /* Icon-App-29x29@3x.png */; };
+		915393F121B6126D00444BB2 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E121B6126D00444BB2 /* Icon-App-40x40@2x.png */; };
+		915393F221B6126D00444BB2 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E221B6126D00444BB2 /* Icon-App-60x60@3x.png */; };
+		915393F321B6126D00444BB2 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E321B6126D00444BB2 /* Icon-App-60x60@2x.png */; };
+		915393F421B6126D00444BB2 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E421B6126D00444BB2 /* Icon-App-76x76@1x.png */; };
+		915393F521B6126D00444BB2 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E521B6126D00444BB2 /* Icon-App-40x40@3x.png */; };
+		915393F621B6126D00444BB2 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E621B6126D00444BB2 /* Icon-App-29x29@2x.png */; };
+		91C1863E21B5F8C5006D626E /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C1863D21B5F8C5006D626E /* images.xcassets */; };
+		91E78D3D1F8D50FB00337262 /* 1F.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E78D3C1F8D50FB00337262 /* 1F.png */; };
+		91ED4BD72136D5F3007A9D52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91ED4BD62136D5F3007A9D52 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600ECCF77020D955E907E6E0 /* Pods-fisiofinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fisiofinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fisiofinder/Pods-fisiofinder.debug.xcconfig"; sourceTree = "<group>"; };
+		912CB10D1F8BF72900063EC2 /* fisiofinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fisiofinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		912CB1101F8BF72900063EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		912CB1121F8BF72900063EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		912CB1151F8BF72900063EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		912CB1181F8BF72900063EC2 /* fisiofinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fisiofinder.xcdatamodel; sourceTree = "<group>"; };
+		912CB11D1F8BF72900063EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		912CB11F1F8BF72900063EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915393D721B6126D00444BB2 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		915393D821B6126D00444BB2 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		915393D921B6126D00444BB2 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		915393DA21B6126D00444BB2 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		915393DB21B6126D00444BB2 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		915393DC21B6126D00444BB2 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		915393DD21B6126D00444BB2 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		915393DE21B6126D00444BB2 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		915393DF21B6126D00444BB2 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		915393E021B6126D00444BB2 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		915393E121B6126D00444BB2 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		915393E221B6126D00444BB2 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		915393E321B6126D00444BB2 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		915393E421B6126D00444BB2 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		915393E521B6126D00444BB2 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		915393E621B6126D00444BB2 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		91C1863D21B5F8C5006D626E /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		91E78D3C1F8D50FB00337262 /* 1F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1F.png; sourceTree = "<group>"; };
+		91ED4BD62136D5F3007A9D52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC0CFC6AFD92D12702D2DFB7 /* Pods-fisiofinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fisiofinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-fisiofinder/Pods-fisiofinder.release.xcconfig"; sourceTree = "<group>"; };
+		DFBB8AE04ACC68627FE4FF47 /* Pods_fisiofinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fisiofinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		912CB10A1F8BF72900063EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51963039DFCF4F14601927F8 /* Pods_fisiofinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56195864A74DDDFBA3404E4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				600ECCF77020D955E907E6E0 /* Pods-fisiofinder.debug.xcconfig */,
+				BC0CFC6AFD92D12702D2DFB7 /* Pods-fisiofinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		912CB1041F8BF72900063EC2 = {
+			isa = PBXGroup;
+			children = (
+				912CB10F1F8BF72900063EC2 /* fisiofinder */,
+				912CB10E1F8BF72900063EC2 /* Products */,
+				56195864A74DDDFBA3404E4B /* Pods */,
+				F3466452B29FFCB35228322F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		912CB10E1F8BF72900063EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				912CB10D1F8BF72900063EC2 /* fisiofinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		912CB10F1F8BF72900063EC2 /* fisiofinder */ = {
+			isa = PBXGroup;
+			children = (
+				912CB1101F8BF72900063EC2 /* AppDelegate.swift */,
+				912CB1121F8BF72900063EC2 /* ViewController.swift */,
+				912CB1141F8BF72900063EC2 /* Main.storyboard */,
+				91E78D3C1F8D50FB00337262 /* 1F.png */,
+				912CB11C1F8BF72900063EC2 /* LaunchScreen.storyboard */,
+				912CB11F1F8BF72900063EC2 /* Info.plist */,
+				912CB1171F8BF72900063EC2 /* fisiofinder.xcdatamodeld */,
+				91ED4BD62136D5F3007A9D52 /* GoogleService-Info.plist */,
+				915393D621B6126D00444BB2 /* AppIcon.appiconset */,
+				91C1863D21B5F8C5006D626E /* images.xcassets */,
+			);
+			path = fisiofinder;
+			sourceTree = "<group>";
+		};
+		915393D621B6126D00444BB2 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				915393D721B6126D00444BB2 /* Icon-App-76x76@2x.png */,
+				915393D821B6126D00444BB2 /* Icon-App-29x29@1x.png */,
+				915393D921B6126D00444BB2 /* Icon-App-40x40@1x.png */,
+				915393DA21B6126D00444BB2 /* Icon-App-20x20@1x.png */,
+				915393DB21B6126D00444BB2 /* Icon-App-83.5x83.5@2x.png */,
+				915393DC21B6126D00444BB2 /* Icon-App-20x20@3x.png */,
+				915393DD21B6126D00444BB2 /* ItunesArtwork@2x.png */,
+				915393DE21B6126D00444BB2 /* Contents.json */,
+				915393DF21B6126D00444BB2 /* Icon-App-20x20@2x.png */,
+				915393E021B6126D00444BB2 /* Icon-App-29x29@3x.png */,
+				915393E121B6126D00444BB2 /* Icon-App-40x40@2x.png */,
+				915393E221B6126D00444BB2 /* Icon-App-60x60@3x.png */,
+				915393E321B6126D00444BB2 /* Icon-App-60x60@2x.png */,
+				915393E421B6126D00444BB2 /* Icon-App-76x76@1x.png */,
+				915393E521B6126D00444BB2 /* Icon-App-40x40@3x.png */,
+				915393E621B6126D00444BB2 /* Icon-App-29x29@2x.png */,
+			);
+			name = AppIcon.appiconset;
+			path = logo_fisiofinder/ios/AppIcon.appiconset;
+			sourceTree = SOURCE_ROOT;
+		};
+		F3466452B29FFCB35228322F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFBB8AE04ACC68627FE4FF47 /* Pods_fisiofinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		912CB10C1F8BF72900063EC2 /* fisiofinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912CB1221F8BF72900063EC2 /* Build configuration list for PBXNativeTarget "fisiofinder" */;
+			buildPhases = (
+				8CB84207EDE43CEFDEC1D3AC /* [CP] Check Pods Manifest.lock */,
+				912CB1091F8BF72900063EC2 /* Sources */,
+				912CB10A1F8BF72900063EC2 /* Frameworks */,
+				912CB10B1F8BF72900063EC2 /* Resources */,
+				C742258AB77241753624FF66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fisiofinder;
+			productName = fisiofinder;
+			productReference = 912CB10D1F8BF72900063EC2 /* fisiofinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		912CB1051F8BF72900063EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Luís Antônio de Oliveira Santos";
+				TargetAttributes = {
+					912CB10C1F8BF72900063EC2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F4J68BQ5VP;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 912CB1081F8BF72900063EC2 /* Build configuration list for PBXProject "fisiofinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 912CB1041F8BF72900063EC2;
+			productRefGroup = 912CB10E1F8BF72900063EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				912CB10C1F8BF72900063EC2 /* fisiofinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		912CB10B1F8BF72900063EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915393F321B6126D00444BB2 /* Icon-App-60x60@2x.png in Resources */,
+				915393E821B6126D00444BB2 /* Icon-App-29x29@1x.png in Resources */,
+				91E78D3D1F8D50FB00337262 /* 1F.png in Resources */,
+				912CB11E1F8BF72900063EC2 /* LaunchScreen.storyboard in Resources */,
+				915393E721B6126D00444BB2 /* Icon-App-76x76@2x.png in Resources */,
+				915393EB21B6126D00444BB2 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				915393F021B6126D00444BB2 /* Icon-App-29x29@3x.png in Resources */,
+				915393F121B6126D00444BB2 /* Icon-App-40x40@2x.png in Resources */,
+				915393F621B6126D00444BB2 /* Icon-App-29x29@2x.png in Resources */,
+				91ED4BD72136D5F3007A9D52 /* GoogleService-Info.plist in Resources */,
+				915393EA21B6126D00444BB2 /* Icon-App-20x20@1x.png in Resources */,
+				915393F221B6126D00444BB2 /* Icon-App-60x60@3x.png in Resources */,
+				915393EE21B6126D00444BB2 /* Contents.json in Resources */,
+				915393F421B6126D00444BB2 /* Icon-App-76x76@1x.png in Resources */,
+				915393EF21B6126D00444BB2 /* Icon-App-20x20@2x.png in Resources */,
+				915393EC21B6126D00444BB2 /* Icon-App-20x20@3x.png in Resources */,
+				915393F521B6126D00444BB2 /* Icon-App-40x40@3x.png in Resources */,
+				915393E921B6126D00444BB2 /* Icon-App-40x40@1x.png in Resources */,
+				912CB1161F8BF72900063EC2 /* Main.storyboard in Resources */,
+				91C1863E21B5F8C5006D626E /* images.xcassets in Resources */,
+				915393ED21B6126D00444BB2 /* ItunesArtwork@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CB84207EDE43CEFDEC1D3AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fisiofinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C742258AB77241753624FF66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fisiofinder/Pods-fisiofinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fisiofinder/Pods-fisiofinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		912CB1091F8BF72900063EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912CB1131F8BF72900063EC2 /* ViewController.swift in Sources */,
+				912CB1191F8BF72900063EC2 /* fisiofinder.xcdatamodeld in Sources */,
+				912CB1111F8BF72900063EC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		912CB1141F8BF72900063EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912CB1151F8BF72900063EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		912CB11C1F8BF72900063EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912CB11D1F8BF72900063EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		912CB1201F8BF72900063EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		912CB1211F8BF72900063EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		912CB1231F8BF72900063EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600ECCF77020D955E907E6E0 /* Pods-fisiofinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F4J68BQ5VP;
+				INFOPLIST_FILE = fisiofinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fisiofinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		912CB1241F8BF72900063EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0CFC6AFD92D12702D2DFB7 /* Pods-fisiofinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F4J68BQ5VP;
+				INFOPLIST_FILE = fisiofinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fisiofinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		912CB1081F8BF72900063EC2 /* Build configuration list for PBXProject "fisiofinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912CB1201F8BF72900063EC2 /* Debug */,
+				912CB1211F8BF72900063EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912CB1221F8BF72900063EC2 /* Build configuration list for PBXNativeTarget "fisiofinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912CB1231F8BF72900063EC2 /* Debug */,
+				912CB1241F8BF72900063EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		912CB1171F8BF72900063EC2 /* fisiofinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				912CB1181F8BF72900063EC2 /* fisiofinder.xcdatamodel */,
+			);
+			currentVersion = 912CB1181F8BF72900063EC2 /* fisiofinder.xcdatamodel */;
+			path = fisiofinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 912CB1051F8BF72900063EC2 /* Project object */;
+}
