@@ -68,6 +68,12 @@ class ViewController: UIViewController {
 */
     
     }
+    
+    
+    // Método para ocultar o teclado
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
