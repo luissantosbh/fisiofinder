@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		51963039DFCF4F14601927F8 /* Pods_fisiofinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBB8AE04ACC68627FE4FF47 /* Pods_fisiofinder.framework */; };
 		912CB1111F8BF72900063EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CB1101F8BF72900063EC2 /* AppDelegate.swift */; };
-		912CB1131F8BF72900063EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CB1121F8BF72900063EC2 /* ViewController.swift */; };
 		912CB1161F8BF72900063EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912CB1141F8BF72900063EC2 /* Main.storyboard */; };
 		912CB1191F8BF72900063EC2 /* fisiofinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 912CB1171F8BF72900063EC2 /* fisiofinder.xcdatamodeld */; };
 		912CB11E1F8BF72900063EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912CB11C1F8BF72900063EC2 /* LaunchScreen.storyboard */; };
@@ -29,6 +28,7 @@
 		915393F421B6126D00444BB2 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E421B6126D00444BB2 /* Icon-App-76x76@1x.png */; };
 		915393F521B6126D00444BB2 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E521B6126D00444BB2 /* Icon-App-40x40@3x.png */; };
 		915393F621B6126D00444BB2 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915393E621B6126D00444BB2 /* Icon-App-29x29@2x.png */; };
+		9186E56321DD271A00FDAD59 /* ViewControllerFirestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186E56221DD271A00FDAD59 /* ViewControllerFirestone.swift */; };
 		91C1863E21B5F8C5006D626E /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C1863D21B5F8C5006D626E /* images.xcassets */; };
 		91E78D3D1F8D50FB00337262 /* 1F.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E78D3C1F8D50FB00337262 /* 1F.png */; };
 		91ED4BD72136D5F3007A9D52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91ED4BD62136D5F3007A9D52 /* GoogleService-Info.plist */; };
@@ -38,7 +38,6 @@
 		600ECCF77020D955E907E6E0 /* Pods-fisiofinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fisiofinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fisiofinder/Pods-fisiofinder.debug.xcconfig"; sourceTree = "<group>"; };
 		912CB10D1F8BF72900063EC2 /* fisiofinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fisiofinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		912CB1101F8BF72900063EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		912CB1121F8BF72900063EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		912CB1151F8BF72900063EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		912CB1181F8BF72900063EC2 /* fisiofinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fisiofinder.xcdatamodel; sourceTree = "<group>"; };
 		912CB11D1F8BF72900063EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		915393E421B6126D00444BB2 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
 		915393E521B6126D00444BB2 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
 		915393E621B6126D00444BB2 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		9186E56221DD271A00FDAD59 /* ViewControllerFirestone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFirestone.swift; sourceTree = "<group>"; };
 		91C1863D21B5F8C5006D626E /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		91E78D3C1F8D50FB00337262 /* 1F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1F.png; sourceTree = "<group>"; };
 		91ED4BD62136D5F3007A9D52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				912CB1101F8BF72900063EC2 /* AppDelegate.swift */,
-				912CB1121F8BF72900063EC2 /* ViewController.swift */,
+				9186E56221DD271A00FDAD59 /* ViewControllerFirestone.swift */,
 				912CB1141F8BF72900063EC2 /* Main.storyboard */,
 				91E78D3C1F8D50FB00337262 /* 1F.png */,
 				912CB11C1F8BF72900063EC2 /* LaunchScreen.storyboard */,
@@ -269,14 +269,28 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-fisiofinder/Pods-fisiofinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				912CB1131F8BF72900063EC2 /* ViewController.swift in Sources */,
 				912CB1191F8BF72900063EC2 /* fisiofinder.xcdatamodeld in Sources */,
+				9186E56321DD271A00FDAD59 /* ViewControllerFirestone.swift in Sources */,
 				912CB1111F8BF72900063EC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 import Firebase
+import Firestore
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +21,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        
+//        let db = Firestore.firestore()
+//        
+//
+//        let citiesRef = db.collection("cities")
+//
+//        citiesRef.document("SF").setData([
+//            "name": "San Francisco",
+//            "state": "CA",
+//            "country": "USA",
+//            "capital": false,
+//            "population": 860000
+//            ])
+//        citiesRef.document("LA").setData([
+//            "name": "Los Angeles",
+//            "state": "CA",
+//            "country": "USA",
+//            "capital": false,
+//            "population": 3900000
+//            ])
+//        citiesRef.document("DC").setData([
+//            "name": "Washington D.C.",
+//            "country": "USA",
+//            "capital": true,
+//            "population": 680000
+//            ])
+//        citiesRef.document("TOK").setData([
+//            "name": "Tokyo",
+//            "country": "Japan",
+//            "capital": true,
+//            "population": 9000000
+//            ])
+//        citiesRef.document("BJ").setData([
+//            "name": "Beijing",
+//            "country": "China",
+//            "capital": true,
+//            "population": 21500000
+//            ])
         return true
     }
 

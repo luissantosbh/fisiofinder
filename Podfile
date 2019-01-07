@@ -4,12 +4,13 @@
 target 'fisiofinder' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
+  
+  
+  
   # Pods for fisiofinder
-
-    pod 'Firebase/Core'
-    pod 'Firebase/Auth'
-    pod 'Firebase/Database'
-
-
+  pod 'Firebase/Database'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firestore', :podspec => 'https://storage.googleapis.com/firebase-preview-drop/ios/firestore/0.7.0/Firestore.podspec.json'
 end
+
