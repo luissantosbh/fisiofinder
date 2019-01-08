@@ -9,6 +9,8 @@ import UIKit
 import FirebaseFirestore
 
 class ViewControllerFirestone: UIViewController {
+   
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,12 @@ class ViewControllerFirestone: UIViewController {
     private func simpleQueries() {
         
         let db = Firestore.firestore()
+        let settings = db.settings
+        settings.areTimestampsInSnapshotsEnabled = true
+        db.settings = settings
+        
+        
+        
         let citiesRef = db.collection("cities")
         let myQuery = citiesRef.whereField("state", isEqualTo: "CA")
         
