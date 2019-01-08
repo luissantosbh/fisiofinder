@@ -5,10 +5,8 @@
 //  Created by Luís Antônio de Oliveira Santos on 02/01/19.
 //  Copyright © 2019 Luís Antônio de Oliveira Santos. All rights reserved.
 //
-
 import UIKit
-import Firestore
-import Firebase
+import FirebaseFirestore
 
 class ViewControllerFirestone: UIViewController {
     
@@ -41,7 +39,7 @@ class ViewControllerFirestone: UIViewController {
                 guard let stateProperty = doc.get("state") as? String else {
                     continue // continue loop
                 }
-                print(stateProperty)
+                print("Retorno da query: \(stateProperty)")
                 
             }
             
