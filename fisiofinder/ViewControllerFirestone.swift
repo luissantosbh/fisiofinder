@@ -9,13 +9,12 @@ import UIKit
 import FirebaseFirestore
 
 class ViewControllerFirestone: UIViewController {
-   
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         simpleQueries()
     }
+
     
     private func simpleQueries() {
         
@@ -23,7 +22,6 @@ class ViewControllerFirestone: UIViewController {
         let settings = db.settings
         settings.areTimestampsInSnapshotsEnabled = true
         db.settings = settings
-        
         
         
         let citiesRef = db.collection("cities")
@@ -41,14 +39,20 @@ class ViewControllerFirestone: UIViewController {
             }
             
             // data fetched, loop through documents
-            
+    
+
             for doc in snapshot.documents {
                 
-                guard let stateProperty = doc.get("state") as? String else {
-                    continue // continue loop
+                guard let country = doc.get("name"),
+                      let name = doc.get("country"),
+                      let population = doc.get("population"),
+                      let state = doc.get("state")
+                    else{
+                    print("No data were found.")
+                    return
                 }
-                print("Retorno da query: \(stateProperty)")
-                
+  
+                print("Retorno da query: \(name), \(country),\(population),\(state)")
             }
             
         }
